@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Iphone 14</title>
+</head>
+<body>
+    <div class="box">
+        <div class="inner">
+            <div class="island_popur active">
+                <div class="content">
+                    <div class="details">
+                        <div class="imgBx">
+                            <img src="img/pexels-samantha-garrote-2467388.jpg" alt="girl">
+                        </div>
+                        <p>Marina Calling</p>
+                    </div>
+                    <div class="action">
+                        <ion-icon name="call-outline" class="red"></ion-icon>
+                        <ion-icon name="call-outline" class="green"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="btn btn1"></i>
+        <i class="btn btn2"></i>
+        <i class="btn btn3"></i>
+        <i class="rightSideBtn"></i>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        let popur = document.querySelector('.island_popur');
+        popur.onclick = function() {
+            popur.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
